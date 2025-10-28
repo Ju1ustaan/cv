@@ -3,6 +3,7 @@ import { BlockWrapper } from "../../../shared/ui";
 import { SectionTitle } from "../../../shared/ui";
 import './aboutSection.css';
 
+
 export const AboutSection = () => {
     return (
 
