@@ -10,21 +10,18 @@ export const StackSection = () => {
         <section className="stack" id="stack">
             <div className="container">
                 <div className="stack__wrapper">
-                    <div className="stack__wrapp">
+                    <div className="stack__wrapp stack__wrapp-mobile">
                         <SectionTitle highlightedText="Технологии" titleText="которые я использую"/>
                         <div
                             className='stack__info'
                         >
                             <BlockWrapper>
                                 <StackSkills />
-
                             </BlockWrapper>
                         </div>
                     </div>
 
-                    <div
-                        className='stack__carousel-wrapper'
-                    >
+                    <div className='stack__carousel-wrapper'>
                         <BlockWrapper position='left'>
                             <StackCarousel />
                         </BlockWrapper>

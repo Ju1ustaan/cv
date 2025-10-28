@@ -1,6 +1,6 @@
 .title {
   font-family: "Comfortaa", sans-serif;
-  font-size: 64px;
+  font-size: clamp(24px, 5vw, 64px);
   font-weight: 600;
   color: #cacaca;
 }

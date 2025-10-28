@@ -54,7 +54,7 @@
   font-size: clamp(24px, 5vw, 42px);
   font-weight: 700;
   background: linear-gradient(135deg, #0061ff -20%, #60efff 120%);
-   -webkit-background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -71,4 +71,17 @@
   font-size: 24px;
   color: #cacaca;
   cursor: pointer;
+}
+
+@media (max-width: 350px) {
+.home__images {
+  flex-direction: column;
+}
+.home__img {
+  width: 100%;
+  height: 20%;
+} 
+.home__img:nth-child(3) {
+  height: 80%;
+}
 }
