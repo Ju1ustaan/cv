@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { BlockWrapper } from "../../../shared/ui";
 import { SectionTitle } from "../../../shared/ui";
-import MyImg from '../../../assets/ju-for-sv-2.JPG'
+import MyImg from '../../../assets/ju-for-sv.jpg'
 import './aboutSection.css'
 
 
