@@ -11,7 +11,7 @@ export const PROJECTS = [
     image: arqa,
     title: 'ARQA Technologies',
     description:
-      'Corporate website for ARQA Technologies, a leading software development company specializing in innovative solutions for businesses worldwide.',
+      'Современный шаблон фронтенд-приложения, реализованный с использованием Feature-Sliced Design (FSD). Проект создан для быстрого старта разработки SPA с гибкой архитектурой и переиспользуемыми компонентами.',
     link: 'https://github.com/Ju1ustaan/arqa-test#readme',
   },
   {
@@ -19,7 +19,7 @@ export const PROJECTS = [
     image: emilkeev,
     title: 'Emilkeev Portfolio',
     description:
-      'Personal portfolio website for a frontend developer, featuring modern animations, project showcases, and a clean minimalist design.',
+      'Современная админ-панель для анализа продаж, заказов и доходов. Интерфейс построен на Vue 3 с использованием TypeScript, Pinia и TailwindCSS по архитектуре Feature-Sliced Design (FSD).',
     link: 'https://github.com/Ju1ustaan/elmikeev-analitycs#readme',
   },
   {
@@ -27,7 +27,7 @@ export const PROJECTS = [
     image: layout,
     title: 'Landing Page Layout',
     description:
-      'Responsive landing page built from Figma mockups with adaptive design, smooth animations, and semantic HTML structure.',
+      'Адаптивная HTML-верстка, включающая готовые блоки и интерфейсные компоненты. Проект можно использовать как основу для реальных сайтов и шаблонов.',
     link: 'https://github.com/Ju1ustaan/Poster-website-layout#readme',
   },
   {
@@ -35,7 +35,7 @@ export const PROJECTS = [
     image: rickandmorty,
     title: 'Rick and Morty Explorer',
     description:
-      'Vue.js app that interacts with the Rick and Morty API, displaying characters, locations, and episodes with pagination and routing.',
+      'Приложение на Vue 3, использующее открытое API Rick and Morty. Проект по одноименному мультсериалу "Рик и Морти". Позволяет просматривать персонажей, эпизоды и локации — с фильтрацией, пагинацией и детальными страницами.',
     link: 'https://github.com/Ju1ustaan/rick-and-morty#readme',
   },
   {
@@ -43,7 +43,7 @@ export const PROJECTS = [
     image: swapi,
     title: 'Star Wars Database',
     description:
-      'React-based web application with authentication, dynamic tables, and character pages powered by the SWAPI REST API.',
+      'Интерактивное SPA-приложение, созданное на React с использованием Redux Toolkit и React Router. Позволяет просматривать данные о персонажах, кораблях и планетах вселенной Star Wars с удобной пагинацией, детальными страницами и авторизацией.',
     link: 'https://github.com/Ju1ustaan/swapi/tree/main/solva-project#readme',
   },
 ];

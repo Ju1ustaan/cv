@@ -28,6 +28,14 @@
     transition: transform 0.5s ease;
 }
 
+.project__item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
 .project-item__title {
     font-size: 24px;
     font-weight: 600;
@@ -40,8 +48,23 @@
     letter-spacing: 2px;
 }
 .project-item__link {
+    justify-self: end;
+    background-color: #fff;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
     cursor: pointer;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.5s ease;
+}
+
+.project-item__link:hover {
+    background-color: #e0e0e0;
+    transform: scaleX(1.05) scaleY(1.04);
 }
 
 @media (max-width: 768px) {

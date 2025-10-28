@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import { BlockWrapper } from "../../../shared/ui";
+import { GitHubIcon } from "../../../assets/icons/icons";
 interface ProjectItemProps {
   item: {
     id: number;
@@ -25,7 +26,8 @@ export const ProjectItem: FC<ProjectItemProps> = ({ item, position }) => {
             rel="noopener noreferrer"
             className="project-item__link"
           >
-            Подробнее
+            Перейти к проекту 
+            <GitHubIcon width={32} height={32} />
           </a>
         </div>
       </div>

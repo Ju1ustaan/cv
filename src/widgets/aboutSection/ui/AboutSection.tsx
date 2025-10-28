@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { BlockWrapper } from "../../../shared/ui";
 import { SectionTitle } from "../../../shared/ui";
+import MyImg from '../../../assets/ju-for-sv-2.JPG'
 import './aboutSection.css'
 
 
@@ -24,12 +25,7 @@ export const AboutSection = () => {
                             <h2 className="about__subtitle">
                                 Дьулустаан Лугинов
                             </h2>
-                            <li className="">Тут будет немного информации обо мне. </li>
-                            <li className="">Например где и как обучался. </li>
-                            <li className=""> Где я работал. </li>
-                            <li className=""> Чем там занимался</li>
-                            <li className=""> Мое хобби</li>
-                            <li className=""> И еще что нибудь</li>
+                            <li className="">Фронтенд-разработчик с опытом коммерческой разработки. Реализовал проекты с адаптивной вёрсткой, интеграцией с API, локальным хранением данных и системой авторизации. Владею Vue, React, TypeScript и Node.js. Ценю ясную архитектуру (FSD, SOLID) и комфортную командную коммуникацию. Продолжаю развивать навыки в backend-части и DevOps.</li>
                         </ul>
                     </BlockWrapper>
                     </motion.div>
@@ -37,7 +33,7 @@ export const AboutSection = () => {
                         className="about__img"
                     >
                         <BlockWrapper>
-                        <img src="https://www.kino-teatr.ru/acter/album/49791/33778.jpg" alt="my photo" />
+                        <img src={MyImg} alt="my photo" />
                         </BlockWrapper>
                     </div>
                 </div>

@@ -73,7 +73,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 756px) {
 .home__images {
   flex-direction: column;
 }
