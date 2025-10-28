@@ -1,4 +1,4 @@
-import './MainSection.css';
+import './mainSection.css';
 
 export const MainSection = () => {
   return (

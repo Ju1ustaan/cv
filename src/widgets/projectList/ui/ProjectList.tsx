@@ -1,7 +1,7 @@
 import { PROJECTS } from "../../../shared/consts/projects"
 import { ProjectItem } from "./ProjectItem"
 
-import './ProjectItem.css'
+import './projectItem.css'
 
 export const ProjectList = () => {
     return (

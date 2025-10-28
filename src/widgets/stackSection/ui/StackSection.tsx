@@ -3,7 +3,7 @@ import { StackSkills } from './StackSkills';
 import { BlockWrapper } from '../../../shared/ui';
 import { SectionTitle } from '../../../shared/ui';
 
-import './StackSection.css';
+import './stackSection.css';
 
 export const StackSection = () => {
     return (

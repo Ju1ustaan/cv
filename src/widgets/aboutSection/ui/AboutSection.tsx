@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { BlockWrapper } from "../../../shared/ui";
 import { SectionTitle } from "../../../shared/ui";
-import './AboutSection.css';
+import './aboutSection.css';
 
 export const AboutSection = () => {
     return (
