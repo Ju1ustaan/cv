@@ -1,5 +1,5 @@
 import { HashLink as RouterHashLink } from 'react-router-hash-link';
-import './Topbar.css';
+import './topbar.css';
 
 export const Topbar = () => {
     return (
