@@ -1,0 +1,12 @@
+.title {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 64px;
+  font-weight: 600;
+  color: #cacaca;
+}
+
+.title span {
+  background: linear-gradient(135deg, #e81cff -20%, #40c9ff 120%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
