@@ -46,6 +46,8 @@
   transform: translate(-50%, -50%);
   border: solid 3px #666666;
   border-radius: 20px;
+    background-color: #63636376;
+    backdrop-filter: blur(2px);
 }
 
 .home__title {

@@ -11,6 +11,8 @@
   border-radius: 50px;
   border: solid 3px #666666;
   z-index: 999;
+    background-color: #63636376;
+    backdrop-filter: blur(2px);
 }
 
 .home__link {
