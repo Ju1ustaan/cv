@@ -1,6 +1,7 @@
 import { SectionTitle } from '@/shared/ui'
 import { WhatsAppIcon, TelegramIcon, GmailIcon, PhoneIcon } from '@/assets/icons/icons'
 import './contacts.css'
+import { section } from 'framer-motion/client';
 
 const LINKS = [
   {
@@ -27,8 +28,9 @@ const LINKS = [
 
 export const Contacts = () => {
     return (
-        <div className='container' id='contacts'>
-            <div className="contacts">
+        <section className="contacts" id="contacts">
+            <div className='container'>
+            <div className="contacts__wrapper">
                 <SectionTitle highlightedText="Контакты" titleText="для связи" />
                 <div className="contacts__links">
                     {
@@ -42,5 +44,6 @@ export const Contacts = () => {
                 </div>
             </div>
         </div>
+        </section>
     )
 }

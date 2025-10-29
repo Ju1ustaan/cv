@@ -1,4 +1,8 @@
 .contacts {
+    background-color: #071a6e76;
+    backdrop-filter: blur(10px);
+}
+.contacts__wrapper {
     display: flex;
     align-items: start;
     justify-content: space-between;
@@ -31,7 +35,7 @@
 }
 
 @media (max-width: 768px) {
-    .contacts {
+    .contacts__wrapper {
         flex-direction: column;
         align-items: center;
         gap: 30px;
