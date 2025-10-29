@@ -27,7 +27,7 @@ const LINKS = [
 
 export const Contacts = () => {
     return (
-        <div className='container'>
+        <div className='container' id='contacts'>
             <div className="contacts">
                 <SectionTitle highlightedText="Контакты" titleText="для связи" />
                 <div className="contacts__links">
