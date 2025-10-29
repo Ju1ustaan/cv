@@ -1,7 +1,7 @@
 import type { FC } from "react";
 
 import { BlockWrapper } from "@/shared/ui";
-import { GitHubIcon } from "@/assets/icons/icons";
+import { DemoIcon, GitHubIcon } from "@/assets/icons/icons";
 
 interface ProjectItemProps {
   item: {
@@ -10,6 +10,7 @@ interface ProjectItemProps {
     title: string;
     description: string;
     link: string;
+    demo?: string;
   };
   position?: 'left' | 'right';
 }
@@ -31,6 +32,17 @@ export const ProjectItem: FC<ProjectItemProps> = ({ item, position }) => {
             Перейти к проекту 
             <GitHubIcon width={32} height={32} />
           </a>
+          {item.demo && (
+            <a
+            href={item.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-item__link"
+          >
+            Перейти к DEMO 
+            <DemoIcon width={32} height={32} />
+          </a>
+          )}
         </div>
       </div>
     </BlockWrapper>
