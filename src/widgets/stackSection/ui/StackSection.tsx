@@ -1,7 +1,7 @@
 import { StackCarousel } from './StackCarousel';
 import { StackSkills } from './StackSkills';
-import { BlockWrapper } from '../../../shared/ui';
-import { SectionTitle } from '../../../shared/ui';
+import { BlockWrapper } from '@/shared/ui';
+import { SectionTitle } from '@/shared/ui';
 
 import './stackSection.css';
 

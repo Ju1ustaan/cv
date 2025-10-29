@@ -1,4 +1,4 @@
-import { PROJECTS } from "../../../shared/consts/projects"
+import { PROJECTS } from "@/shared/consts/projects"
 import { ProjectItem } from "./ProjectItem"
 
 import './projectItem.css'

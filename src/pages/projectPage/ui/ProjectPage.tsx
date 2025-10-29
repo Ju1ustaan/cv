@@ -1,4 +1,4 @@
-import { ProjectList } from "../../../widgets/projectList"
+import { ProjectList } from "@/widgets/projectList"
 
 export const ProjectPage = () => {
   return (

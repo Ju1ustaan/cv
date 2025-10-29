@@ -1,4 +1,4 @@
-import { mySkills } from "../../../shared/consts/skills"
+import { MY_SKILLS } from "@/shared/consts/skills"
 
 export const StackSkills = () => {
     return (
@@ -15,7 +15,7 @@ export const StackSkills = () => {
                 </div>
                 <ul className="stack__text">
                     {
-                        mySkills.map((skill) => (
+                        MY_SKILLS.map((skill) => (
                             <div className="stack__wrapp" key={skill.name}>
                                 <li className="stack__list">{skill.name}</li>
                                 <div className="stack__rating">

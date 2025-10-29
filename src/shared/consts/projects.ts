@@ -3,7 +3,8 @@ import {
     emilkeev,
     layout,
     rickandmorty,
-    swapi } from '../../assets/projects'
+    twitch,
+    swapi } from '@/assets/projects'
 
 export const PROJECTS = [
   {
@@ -16,11 +17,11 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    image: emilkeev,
-    title: 'Emilkeev Portfolio',
+    image: twitch,
+    title: 'Twitch Clone',
     description:
-      'Современная админ-панель для анализа продаж, заказов и доходов. Интерфейс построен на Vue 3 с использованием TypeScript, Pinia и TailwindCSS по архитектуре Feature-Sliced Design (FSD).',
-    link: 'https://github.com/Ju1ustaan/elmikeev-analitycs#readme',
+      'Клон платформы Twitch, созданный на React + Redux с авторизацией через Twitch API. Приложение позволяет пользователям авторизоваться через Twitch, просматривать стримы, каналы и взаимодействовать с контентом в реальном времени.',
+    link: 'https://github.com/Ju1ustaan/My-Twitch-Clone#readme',
   },
   {
     id: 3,
@@ -45,5 +46,13 @@ export const PROJECTS = [
     description:
       'Интерактивное SPA-приложение, созданное на React с использованием Redux Toolkit и React Router. Позволяет просматривать данные о персонажах, кораблях и планетах вселенной Star Wars с удобной пагинацией, детальными страницами и авторизацией.',
     link: 'https://github.com/Ju1ustaan/swapi/tree/main/solva-project#readme',
+  },
+    {
+    id: 6,
+    image: emilkeev,
+    title: 'Emilkeev Portfolio',
+    description:
+      'Современная админ-панель для анализа продаж, заказов и доходов. Интерфейс построен на Vue 3 с использованием TypeScript, Pinia и TailwindCSS по архитектуре Feature-Sliced Design (FSD).',
+    link: 'https://github.com/Ju1ustaan/elmikeev-analitycs#readme',
   },
 ];

@@ -1,6 +1,8 @@
 import type { FC } from "react";
-import { BlockWrapper } from "../../../shared/ui";
-import { GitHubIcon } from "../../../assets/icons/icons";
+
+import { BlockWrapper } from "@/shared/ui";
+import { GitHubIcon } from "@/assets/icons/icons";
+
 interface ProjectItemProps {
   item: {
     id: number;

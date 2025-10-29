@@ -1,1 +1,1 @@
-export {MainSection} from "./ui/MainSection";
+export { MainSection } from "./ui/MainSection";
