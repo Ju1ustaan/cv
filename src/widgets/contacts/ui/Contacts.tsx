@@ -1,7 +1,6 @@
 import { SectionTitle } from '@/shared/ui'
 import { WhatsAppIcon, TelegramIcon, GmailIcon, PhoneIcon } from '@/assets/icons/icons'
 import './contacts.css'
-import { section } from 'framer-motion/client';
 
 const LINKS = [
   {
