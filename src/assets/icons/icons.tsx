@@ -1,4 +1,5 @@
 import type { FC } from "react";
+
 interface IconProps {
     width?: number;
     height?: number;
@@ -91,7 +92,7 @@ export const DemoIcon: FC<IconProps> = ({ width = 48, height = 48 }) => {
     )
 }
 
-export const HomeIcon: FC<IconProps> = ({ width = 24, height = 24, fill }) => {
+export const HomeIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
     return (
         <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path fillRule="evenodd" clipRule="evenodd" d="M3 9L12 2L21 9V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V9Z" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
