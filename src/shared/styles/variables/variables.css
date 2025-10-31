@@ -1,0 +1,32 @@
+:root {
+    --bg-color-dark: #181818;
+    --bg-color-light: #f0f0f0;
+
+    --bg-home-card-dark: #63636376;
+
+    --home-title-dark: linear-gradient(135deg, #0061ff -20%, #60efff 120%);
+    --home-title-light: linear-gradient(135deg, #ff00bb -20%, #fffc00 120%);
+    
+    --text-color-dark: #cacaca;
+    --text-color-light: #181818;
+
+    --text-primary: #454545;
+    --text-primary-black: #131313;
+
+    --primary-text-color-dark: #ebebeb;
+    --primary-text-color-light: #454545;
+
+    --border-color-gray: #666666;
+
+    --font-size-large: 16px;
+}
+
+html.dark {
+  --bg-color-dark: var(--bg-color-light);
+  --bg-home-card-dark: var(--bg-color-light);
+
+  --home-title-dark: var(--home-title-light);
+  --text-color-dark: var(--text-color-light);
+
+  --primary-text-color-dark: var(--primary-text-color-light);
+}

@@ -67,6 +67,7 @@ export const PROJECTS = [
     description:
       'Современная админ-панель для анализа продаж, заказов и доходов. Интерфейс построен на Vue 3 с использованием TypeScript, Pinia и TailwindCSS по архитектуре Feature-Sliced Design (FSD).',
     link: 'https://github.com/Ju1ustaan/elmikeev-analitycs#readme',
+    demo: 'https://elmikeev-analitycs.vercel.app/'
   },
   {
     id: 7,

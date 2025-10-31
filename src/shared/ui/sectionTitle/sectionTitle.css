@@ -1,8 +1,10 @@
+@import '@/shared/styles/variables/variables.css';
+
 .title {
   font-family: "Comfortaa", sans-serif;
   font-size: clamp(24px, 5vw, 64px);
   font-weight: 600;
-  color: #cacaca;
+  color: var(--text-color-dark);
 }
 
 .title span {

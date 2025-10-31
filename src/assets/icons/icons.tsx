@@ -2,6 +2,7 @@ import type { FC } from "react";
 interface IconProps {
     width?: number;
     height?: number;
+    fill?: string;
 }
 export const GitHubIcon: FC<IconProps> = ({ width = 48, height = 48 }) => {
     return (
@@ -86,6 +87,114 @@ export const DemoIcon: FC<IconProps> = ({ width = 48, height = 48 }) => {
         <svg width={width} height={height} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z" fill="white" />
             <path fill-rule="evenodd" clip-rule="evenodd" d="M36.7862 20.4586L36.7862 20.4586L36.7862 20.4587L36.7863 20.4587C36.7879 20.4666 36.7895 20.4747 36.7907 20.4831C36.7969 20.5281 36.8 20.5746 36.8 20.6219V28.1781C36.8 28.2246 36.7969 28.2711 36.7907 28.3176C36.7896 28.3246 36.7882 28.3317 36.7867 28.339L36.7843 28.351L36.7822 28.3633C36.7768 28.3936 36.7713 28.423 36.7636 28.4525C36.7625 28.4566 36.7613 28.4607 36.76 28.4647C36.7579 28.4716 36.7555 28.4784 36.7531 28.4851L36.7531 28.4852L36.7531 28.4852L36.7531 28.4852L36.753 28.4853L36.7496 28.4951L36.7465 28.5044L36.7429 28.5154L36.7428 28.5155C36.7355 28.5376 36.728 28.5601 36.7194 28.5827C36.7124 28.5997 36.7039 28.6168 36.6954 28.6338C36.6845 28.6579 36.6729 28.6811 36.659 28.7051C36.6528 28.7159 36.6459 28.7267 36.6391 28.7375L36.639 28.7376L36.639 28.7377L36.6287 28.754C36.6148 28.7764 36.6 28.7973 36.5838 28.8183C36.5721 28.8346 36.5597 28.85 36.5473 28.8648C36.5303 28.8841 36.5125 28.9043 36.4939 28.9221L36.4931 28.9229C36.4795 28.9373 36.4665 28.951 36.452 28.964C36.4319 28.9818 36.4117 28.9988 36.3916 29.0151L36.3769 29.0264C36.3658 29.035 36.3549 29.0435 36.3435 29.0515C36.3404 29.0535 36.3375 29.0558 36.3346 29.0581C36.3317 29.0605 36.3288 29.0628 36.3257 29.0647L24.9913 36.621C24.8123 36.7403 24.6061 36.8 24.4 36.8C24.1938 36.8 23.9877 36.7403 23.8087 36.621L12.4751 29.0647C12.472 29.0628 12.4691 29.0605 12.4662 29.0581C12.4633 29.0558 12.4604 29.0535 12.4572 29.0515C12.4402 29.0399 12.4247 29.0275 12.4092 29.0151C12.3883 28.9988 12.3681 28.9818 12.3487 28.964C12.334 28.9508 12.3201 28.9368 12.3061 28.9221C12.2875 28.9043 12.2697 28.8841 12.2534 28.8648C12.2403 28.85 12.2278 28.8346 12.2162 28.8183C12.2007 28.7973 12.186 28.7764 12.172 28.754C12.1612 28.7377 12.1511 28.7214 12.141 28.7051C12.1279 28.6811 12.1162 28.6579 12.1046 28.6338L12.0967 28.6168C12.0914 28.6054 12.086 28.594 12.0814 28.5827C12.0716 28.5589 12.0637 28.5352 12.056 28.5121L12.0535 28.5044L12.0484 28.489C12.0445 28.477 12.0405 28.465 12.0372 28.4525C12.0294 28.423 12.024 28.3936 12.0186 28.3633L12.016 28.3511C12.0136 28.3397 12.0112 28.3285 12.0101 28.3176C12.0039 28.2711 12 28.2246 12 28.1781V20.6219C12 20.5746 12.0039 20.5281 12.0101 20.4831C12.0112 20.4711 12.0136 20.46 12.0161 20.4487L12.0186 20.4367L12.0186 20.4366C12.024 20.4064 12.0295 20.3762 12.0372 20.3475C12.0405 20.3351 12.0445 20.323 12.0484 20.311L12.0484 20.311L12.0535 20.2956C12.062 20.2692 12.0705 20.2437 12.0814 20.2181C12.0882 20.2007 12.0965 20.1833 12.1041 20.1674L12.1041 20.1673L12.1046 20.1662C12.1162 20.1414 12.1279 20.1181 12.141 20.0956C12.1511 20.0786 12.1612 20.0623 12.172 20.0461C12.186 20.0236 12.2007 20.0019 12.2162 19.9809C12.2278 19.9654 12.2403 19.95 12.2534 19.9352C12.2697 19.9151 12.2875 19.8957 12.3061 19.8771L12.3145 19.8687L12.3145 19.8687C12.3257 19.8574 12.337 19.8459 12.3487 19.836C12.3681 19.8182 12.3883 19.8011 12.4092 19.7849C12.4247 19.7725 12.4402 19.7601 12.4572 19.7484C12.4604 19.7465 12.4633 19.7442 12.4662 19.7419L12.4662 19.7419L12.4662 19.7419L12.4662 19.7418L12.4662 19.7418C12.4691 19.7395 12.472 19.7372 12.4751 19.7353L23.8087 12.179C24.1675 11.9403 24.6333 11.9403 24.9913 12.179L36.3257 19.7353C36.3288 19.7372 36.3317 19.7395 36.3346 19.7419L36.3371 19.7438C36.3392 19.7455 36.3413 19.7471 36.3435 19.7484L36.3548 19.7567L36.364 19.7636L36.3769 19.7736L36.3916 19.7849C36.4117 19.8011 36.4319 19.8182 36.452 19.836C36.4625 19.8449 36.4723 19.8549 36.482 19.865L36.4939 19.8771C36.5125 19.8957 36.5303 19.9151 36.5473 19.9352C36.5597 19.95 36.5721 19.9654 36.5838 19.9809C36.6 20.0019 36.6148 20.0236 36.6287 20.0461L36.6372 20.0595C36.6447 20.0714 36.6522 20.0833 36.659 20.0956C36.6729 20.1181 36.6845 20.1414 36.6954 20.1662C36.7039 20.1825 36.7124 20.2003 36.7194 20.2181C36.7295 20.2437 36.738 20.2692 36.7465 20.2956C36.7486 20.302 36.7508 20.3083 36.7531 20.3148L36.7531 20.3148C36.7569 20.3255 36.7607 20.3364 36.7636 20.3475C36.7713 20.3762 36.7768 20.4064 36.7822 20.4367L36.7839 20.4468L36.7862 20.4586ZM33.8155 20.6234L25.4656 15.0574V20.0275L30.0862 23.1181L33.8155 20.6234ZM23.3344 15.0574V20.0275L18.7146 23.1181L14.9845 20.6234L23.3344 15.0574ZM16.798 24.4L14.1312 22.6167V26.1833L16.798 24.4ZM23.3344 33.7426L14.9845 28.1766L18.7146 25.6826L23.3344 28.7726V33.7426ZM20.6312 24.4L24.4 26.9211L28.1696 24.4L24.4 21.8789L20.6312 24.4ZM25.4656 33.7426V28.7726L30.0862 25.6826L33.8155 28.1766L25.4656 33.7426ZM32.0028 24.4L34.6688 26.1833V22.6167L32.0028 24.4Z" fill="#0B0B0A" />
+        </svg>
+    )
+}
+
+export const HomeIcon: FC<IconProps> = ({ width = 24, height = 24, fill }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 9L12 2L21 9V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V9Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9 22V12H15V22" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const StackIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 15C15.866 15 19 11.866 19 8C19 4.13401 15.866 1 12 1C8.13401 1 5 4.13401 5 8C5 11.866 8.13401 15 12 15Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M8.21 13.89L7 23L12 20L17 23L15.79 13.88" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const ProjectsIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2L2 7L12 12L22 7L12 2V2Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M2 17L12 22L22 17" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M2 12L12 17L22 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const UserIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 21V19C20 16.7909 18.2091 15 16 15H8C5.79086 15 4 16.7909 4 19V21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const ContactsIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 16.92V19.92C21.0023 20.4831 20.767 21.0211 20.3521 21.4018C19.9371 21.7825 19.3809 21.9707 18.82 21.92C15.7428 21.5856 12.787 20.5341 10.19 18.85C7.77383 17.3146 5.72534 15.2661 4.19 12.85C2.49998 10.2412 1.44824 7.27097 1.12 4.17998C1.06947 3.62085 1.25627 3.06623 1.63477 2.6516C2.01326 2.23697 2.5486 2.0005 3.11 1.99998H6.11C7.11387 1.9901 7.9695 2.72594 8.11 3.71998C8.23662 4.68004 8.47145 5.6227 8.81 6.52998C9.08474 7.26085 8.90902 8.08478 8.36 8.63998L7.09 9.90998C8.51356 12.4135 10.5865 14.4864 13.09 15.91L14.36 14.64C14.9152 14.091 15.7391 13.9152 16.47 14.19C17.3773 14.5285 18.3199 14.7634 19.28 14.89C20.2856 15.0318 21.0252 15.9048 21 16.92Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const GridIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3H10V10H3V3Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 3H21V10H14V3Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M14 14H21V21H14V14Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3 14H10V21H3V14Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const SlidersIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 21V14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4 10V3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12 21V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12 8V3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M20 21V16" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M20 12V3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M1 14H7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M9 8H15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M17 16H23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+    )
+}
+
+export const MoonIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21 12.79C20.5624 17.5258 16.5155 21.1036 11.7618 20.9576C7.00803 20.8115 3.1885 16.992 3.04243 12.2382C2.89637 7.48448 6.47419 3.43765 11.21 3C9.15036 5.78645 9.43926 9.66045 11.8894 12.1106C14.3395 14.5607 18.2136 14.8496 21 12.79V12.79Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    )
+}
+
+export const SunIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12 1V3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M12 21V23" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4.22 4.21997L5.64 5.63997" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M18.36 18.36L19.78 19.78" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M1 12H3" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M21 12H23" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M4.22 19.78L5.64 18.36" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M18.36 5.63997L19.78 4.21997" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+
+    )
+}
+
+export const GlobeIcon: FC<IconProps> = ({ width = 24, height = 24 }) => {
+    return (
+        <svg width={width} height={height} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M2 12H22" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2V2Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
     )
 }

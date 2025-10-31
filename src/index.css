@@ -1,3 +1,5 @@
+@import '@/shared/styles/variables/variables.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -21,8 +23,18 @@ body {
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
 }
 
+html.dark .home__img img {
+  filter: invert(1);
+}
+
 .container {
   max-width: 1580px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.toggle__text {
+  display: flex;
+  align-items: center;
+  gap: 2px;
 }

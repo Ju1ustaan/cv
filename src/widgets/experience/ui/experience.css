@@ -1,3 +1,5 @@
+@import '@/shared/styles/variables/variables.css';
+
 .experience {
     padding: 150px 0;
 }
@@ -33,15 +35,19 @@
 
 .experience__info {
     max-width: 70%;
+    color: var(--text-primary);
 }
 
 .experience__title {
+    color: var(--text-primary-black);
     font-size: clamp(18px, 2.5vw, 24px);
     font-weight: 600;
 }
 
 .experience__point {
-    font-size: clamp(14px, 2vw, 18px);
+    color: var(--text-primary);
+    letter-spacing: 1.5px;
+    font-size: clamp(14px, 2vw, 20px);
 }
 
 @media (max-width: 768px) {
