@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { HashLink as RouterHashLink } from 'react-router-hash-link';
 
 import { ModeToggle } from '@/widgets/themeToggle';
-import { HomeIcon, StackIcon, GridIcon, UserIcon, ContactsIcon, SlidersIcon, MoonIcon, GlobeIcon } from '@/assets/icons/icons';
+import { HomeIcon, StackIcon, GridIcon, UserIcon, ContactsIcon, SlidersIcon, GlobeIcon } from '@/assets/icons/icons';
 import './topbar.css';
 
 const NAVIGATION_LINKS = [
